@@ -1,0 +1,34 @@
+/**
+ * This file contains the base options that need to be set for each
+ * TypeScript config that we have to avoid repition and potential errors.
+ */
+
+// {
+//   "compilerOptions": {
+//     "allowJs": true,
+//     "allowSyntheticDefaultImports": true,
+//     "checkJs": false,
+//     "composite": true,
+//     "esModuleInterop": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "moduleResolution": "node",
+//     "noFallthroughCasesInSwitch": true,
+//     "noUncheckedIndexedAccess": true,
+//     "resolveJsonModule": true,
+//     "skipLibCheck": true,
+//     "strict": true
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "composite": true,
+    "esModuleInterop": true
+  }
+}

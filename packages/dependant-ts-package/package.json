@@ -1,0 +1,25 @@
+{
+  "name": "@abc/dependant-ts-package",
+  "description": "A typescript-first SDK for interacting with the Customer Order enterprise service",
+  "version": "1.0.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.dev.global.tesco.org/storefront/marvel-web"
+  },
+  "bugs": {
+    "url": "https://github.dev.global.tesco.org/storefront/marvel-web/issues"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {},
+  "main": "build/src/index.js",
+  "module": "build/index.es.js",
+  "browser": "build/index.es.js",
+  "types": "build/index.d.ts",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {}
+}
